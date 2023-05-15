@@ -1,0 +1,15 @@
+1) Simple
+	- easy to understand
+	- contains the same syntax as C, and C++,
+	- pointers has been completely removed from Java
+2) Object Oriented
+3) Robust
+	-  capable of handling unexpected termination of a program
+4) Platform Independent
+	- allows programmers to write their program on any machine with any configuration
+	and to execute it on any other machine having different configurations
+5) Portable
+
+6) Secure
+7) Interpreted
+8) Multi-Threaded
