@@ -1,0 +1,13 @@
+Compiler
+	- java compiler compiled .java file
+	- create new .class file
+	- this .class file have the bytecode
+	- converts Java code into bytecode(source code)
+	- .class file is read only file
+	-  javac HelloWorld.java
+
+run-time
+	1. class file
+	2. classloader - to load class file
+	3. bytecode verifier - check the code
+	4. interpreter - execute the instructions

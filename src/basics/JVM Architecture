@@ -1,0 +1,63 @@
+
+- calls main()
+- JVM is a part of JRE
+
+.class file goes into following steps:
+1. ClassLoader
+    a)Loading - reads .class and save it in method area
+                JVM creates an object of type class save it  in heap memory
+    b)Linking - performs verification(ensures the correctness of .class file),
+                preparation(JVM allocates memory for class variables
+                 & initializing the memory to default values),
+                 resolution(process of replacing symbolic references)
+
+    c)Initialization - static variables are assigned with their values
+  There are 3 built-in classloader
+  1) Bootstrap classLoader
+         - super class Extension ClassLoader
+         - loads all class files of Java like java.lang pkg,java.util pkg,
+            java.io,java.sql
+  2) Extension ClassLoader
+          - child of Bootstrap classLoader
+          - parent of System/Application ClassLoader
+          - loads the jar files located inside $JAVA_HOME
+  3) System/Application ClassLoader
+          - child of Extension ClassLoader
+          - loads classfiles from classpath
+
+JVM Memory
+2. Class(Method) Area
+        - stored class level information
+            class name,immediate parent class name,methods,variables,
+            including static variables
+
+3. Heap Area
+        - stores info of all objects
+
+4. Stack Area
+        - stores local variables
+
+5. PC Register
+        - store address of current execution instruction
+
+6. Native Method Stack
+        - store native method info
+
+7. Execution Engine
+        - executes .class file
+        - reads the byte code line by line, info present in memory area
+    3 Parts of EE
+        a) Interpreter
+                - interprets bytecode line by line & then executes
+        b) JIT(Just-In-Time Compiler)
+                - used to increase efficiency of interpreter
+        c) Garbage Collector
+                - destroys un-referenced objects
+
+8. Java Native Interface(JNI)
+        - interacts with the Native method libraries and provides native libraries
+
+9. Java Native libraries
+        - collection of Native libraries which are required by Execution Engine
+
+

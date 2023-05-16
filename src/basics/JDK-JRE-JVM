@@ -1,0 +1,24 @@
+JVM
+ - Java Virtual/abstract Machine
+ - doesn't physically exists
+ - provides a runtime environment in which Java bytecode can be executed
+ - platform dependent (configuration of OS)
+ - task performed by JVM
+    1. loads code
+    2. verifies code
+    3. executes code
+    4. provides runtime environment
+
+JRE
+	- Java Runtime Environment
+	- set of s/w tools
+	- contains JVM & set of libraries
+	- physically exists
+	- implementation of JVM
+
+JDK
+	- Java Development Kit
+	- develop Java application
+	- physically exists
+	- contains JRE + development tools
+
