@@ -1,0 +1,11 @@
+/**
+ * Types of Operators in Java
+ *  1. Unary Operator -> expr++,expr--,++expr,--expr,~,!
+ *  2. Arithmetic Operator -> +,-,*,/,%
+ *  3. Shift Operators ->  <<,>>
+ *  4. Logical Operators -> Logical AND (&&),Logical OR (||)
+ *  5. Bitwise Operators -> Bitwise AND (&),Bitwise OR(|)
+ *  6. Ternary Operators -> ? :
+ *  7. Assignment Operators -> = ,!=,+=,-=,*=,/=,%=,&=,^=,|=
+ *  8. Relational Operators -> <,>,<=,>=
+ */
