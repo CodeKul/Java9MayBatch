@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="operators">
-      <change afterPath="$PROJECT_DIR$/src/basics/DataTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/MathsOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basics/Variables.java" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="Data Types &amp; Variables.java">
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/DivisibleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/IfStatementDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/controlflowstatement" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +46,40 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/basics" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="basics" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MathsOperations">
+  <component name="RunManager" selected="Application.DivisibleDemo">
+    <configuration name="DivisibleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.DivisibleDemo" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controlflowstatements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorld" />
       <module name="Java9MayBatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IfStatementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.IfStatementDemo" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controlflowstatements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,12 +112,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DivisibleDemo" />
+      <item itemvalue="Application.IfStatementDemo" />
       <item itemvalue="Application.HelloWorld" />
       <item itemvalue="Application.MathsOperations" />
       <item itemvalue="Application.OperatorsDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DivisibleDemo" />
+        <item itemvalue="Application.IfStatementDemo" />
         <item itemvalue="Application.MathsOperations" />
         <item itemvalue="Application.OperatorsDemo" />
         <item itemvalue="Application.HelloWorld" />
@@ -125,13 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684329683970</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Data Types &amp; Variables.java">
+      <created>1684413364461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684413364461</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Features" />
     <MESSAGE value="JVM Architecture" />
     <MESSAGE value="operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="operators" />
+    <MESSAGE value="Data Types &amp; Variables.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Types &amp; Variables.java" />
   </component>
 </project>
