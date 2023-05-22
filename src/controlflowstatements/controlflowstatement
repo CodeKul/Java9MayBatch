@@ -33,4 +33,9 @@ Homework:
 4. Find out given number is Odd or Even using Scanner class
 	4 = Even
 	9 = Odd
-5.
+
+5. find smallest no among 3 nos
+
+6. if user enter any from 'a','e','i','o','u' then print "its a vowel"
+	else print "it is a consonants" (check with both capital & small letter)
+	using switch
