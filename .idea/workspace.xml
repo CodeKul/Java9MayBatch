@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="if statements">
-      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/LargestNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/SwitchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/WeekDays.java" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="switch statement">
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/ForLoopDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/ForLoopReverseNo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/ForLoopSumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/ForLoopTableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/NestedForDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controlflowstatements/IfStatementDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/IfStatementDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controlflowstatements/controlflowstatement" beforeDir="false" afterPath="$PROJECT_DIR$/src/controlflowstatements/controlflowstatement" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +55,9 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeekDays">
-    <configuration name="DivisibleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflowstatements.DivisibleDemo" />
+  <component name="RunManager" selected="Application.NestedForDemo">
+    <configuration name="ForLoopDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.ForLoopDemo1" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfStatementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflowstatements.IfStatementDemo" />
+    <configuration name="ForLoopReverseNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.ForLoopReverseNo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestNo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflowstatements.LargestNo" />
+    <configuration name="ForLoopSumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.ForLoopSumDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflowstatements.SwitchDemo" />
+    <configuration name="ForLoopTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.ForLoopTableDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -108,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeekDays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflowstatements.WeekDays" />
+    <configuration name="NestedForDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.NestedForDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -122,19 +122,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LargestNo" />
-      <item itemvalue="Application.SwitchDemo" />
-      <item itemvalue="Application.WeekDays" />
-      <item itemvalue="Application.DivisibleDemo" />
-      <item itemvalue="Application.IfStatementDemo" />
+      <item itemvalue="Application.ForLoopDemo1" />
+      <item itemvalue="Application.ForLoopReverseNo" />
+      <item itemvalue="Application.ForLoopSumDemo" />
+      <item itemvalue="Application.ForLoopTableDemo" />
+      <item itemvalue="Application.NestedForDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WeekDays" />
-        <item itemvalue="Application.LargestNo" />
-        <item itemvalue="Application.SwitchDemo" />
-        <item itemvalue="Application.DivisibleDemo" />
-        <item itemvalue="Application.IfStatementDemo" />
+        <item itemvalue="Application.NestedForDemo" />
+        <item itemvalue="Application.ForLoopDemo1" />
+        <item itemvalue="Application.ForLoopReverseNo" />
+        <item itemvalue="Application.ForLoopTableDemo" />
+        <item itemvalue="Application.ForLoopSumDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684499495482</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="switch statement">
+      <created>1684759026054</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684759026054</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,7 +198,8 @@
     <MESSAGE value="operators" />
     <MESSAGE value="Data Types &amp; Variables.java" />
     <MESSAGE value="if statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="if statements" />
+    <MESSAGE value="switch statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="switch statement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -270,6 +278,26 @@
           <url>file://$PROJECT_DIR$/src/controlflowstatements/LargestNo.java</url>
           <line>21</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/ForLoopSumDemo.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/ForLoopSumDemo.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/ForLoopSumDemo.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controlflowstatements/ForLoopSumDemo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
