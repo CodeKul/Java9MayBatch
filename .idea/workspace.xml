@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="switch statement">
-      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/ForLoopDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/ForLoopReverseNo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/ForLoopSumDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/ForLoopTableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/NestedForDemo.java" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="for loop">
+      <change afterPath="$PROJECT_DIR$/src/controlflowstatements/StarPattern1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +51,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NestedForDemo">
+  <component name="RunManager" selected="Application.StarPattern2">
     <configuration name="ForLoopDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controlflowstatements.ForLoopDemo1" />
       <module name="Java9MayBatch" />
@@ -82,32 +78,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoopSumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflowstatements.ForLoopSumDemo" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controlflowstatements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForLoopTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflowstatements.ForLoopTableDemo" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controlflowstatements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NestedForDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controlflowstatements.NestedForDemo" />
       <module name="Java9MayBatch" />
@@ -121,20 +91,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StarPattern1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.StarPattern1" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controlflowstatements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarPattern2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controlflowstatements.StarPattern2" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controlflowstatements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.StarPattern1" />
+      <item itemvalue="Application.StarPattern2" />
       <item itemvalue="Application.ForLoopDemo1" />
       <item itemvalue="Application.ForLoopReverseNo" />
-      <item itemvalue="Application.ForLoopSumDemo" />
-      <item itemvalue="Application.ForLoopTableDemo" />
       <item itemvalue="Application.NestedForDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StarPattern2" />
+        <item itemvalue="Application.StarPattern1" />
         <item itemvalue="Application.NestedForDemo" />
         <item itemvalue="Application.ForLoopDemo1" />
         <item itemvalue="Application.ForLoopReverseNo" />
-        <item itemvalue="Application.ForLoopTableDemo" />
-        <item itemvalue="Application.ForLoopSumDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684759026054</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="for loop">
+      <created>1684845439826</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684845439826</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,7 +202,8 @@
     <MESSAGE value="Data Types &amp; Variables.java" />
     <MESSAGE value="if statements" />
     <MESSAGE value="switch statement" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch statement" />
+    <MESSAGE value="for loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="for loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
