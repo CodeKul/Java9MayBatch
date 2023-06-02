@@ -1,0 +1,40 @@
+Object Oriented Programming System(OOPs) Concept
+- Smalltalk : 1st truly object oriented language
+
+Object :
+- real world entity
+- eg. chair,table,laptop,computer,bike,car,birds,Pen etc
+- entity has states & behaviours
+	State : represents data of an object
+	Behaviour : represents the functionality of an object
+- instance of a class
+- can logical & physical
+- can takes up some space
+- runtime entity
+
+
+Class :
+- collection of objects
+- logical entity
+- does not consumes memory
+- a template or blueprint from which objects are created
+
+Inheritance :
+- when one object acquires all the properties and behaviours of a parent object
+- provides code re-usability
+- to achieve runtime polymorphism
+
+Polymorphism :
+- one task is performed in different ways
+
+Abstraction :
+- hiding internal details & showing functionality
+
+Encapsulation :
+- binding or wrapping code & data together into a single unit
+
+
+New keyword :
+	- to allocate memory at runtime
+	-
+
