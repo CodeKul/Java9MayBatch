@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="for each,break stmt">
-      <change afterPath="$PROJECT_DIR$/src/oops/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oops/oops" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="objects,class">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/inheritance" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,20 +55,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Employee">
-    <configuration name="BreakDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflowstatements.BreakDemo1" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="controlflowstatements.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TeacherImpl">
     <configuration name="BreakDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controlflowstatements.BreakDemo2" />
       <module name="Java9MayBatch" />
@@ -80,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflowstatements.Calculator" />
+    <configuration name="CubImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.CubImpl" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="controlflowstatements.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEachLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="controlflowstatements.ForEachLoopDemo" />
+    <configuration name="TeacherImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.TeacherImpl" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="controlflowstatements.*" />
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.VehicleImpl" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +122,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CubImpl" />
+      <item itemvalue="Application.TeacherImpl" />
+      <item itemvalue="Application.VehicleImpl" />
       <item itemvalue="Application.Employee" />
-      <item itemvalue="Application.BreakDemo1" />
       <item itemvalue="Application.BreakDemo2" />
-      <item itemvalue="Application.ForEachLoopDemo" />
-      <item itemvalue="Application.Calculator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TeacherImpl" />
+        <item itemvalue="Application.VehicleImpl" />
+        <item itemvalue="Application.CubImpl" />
         <item itemvalue="Application.Employee" />
         <item itemvalue="Application.BreakDemo2" />
-        <item itemvalue="Application.BreakDemo1" />
-        <item itemvalue="Application.ForEachLoopDemo" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685448558430</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="objects,class">
+      <created>1685707176840</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685707176840</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,7 +230,8 @@
     <MESSAGE value="for loop" />
     <MESSAGE value="assignment, while loop, do--while loop" />
     <MESSAGE value="for each,break stmt" />
-    <option name="LAST_COMMIT_MESSAGE" value="for each,break stmt" />
+    <MESSAGE value="objects,class" />
+    <option name="LAST_COMMIT_MESSAGE" value="objects,class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

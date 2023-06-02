@@ -1,0 +1,22 @@
+- one object acquires all the properties and behaviours of a parent object
+- "is-a" relationship
+
+Advantages:
+1. code re-usability
+2. method overriding(runtime polymorphism)
+
+		A   (super/parent class)
+	   /|\
+	    |
+	    B    (sub class/child class)
+
+syntax -
+	class A {
+
+	}
+
+	class B extends A
+
+Note:
+
+Multiple Inheritance is not supported in Java thro' class
