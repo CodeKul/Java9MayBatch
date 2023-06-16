@@ -25,6 +25,6 @@ public class Employee {
         System.out.println("Mobile "+e1.mobileNo);
         System.out.println("Address "+e1.address);
 
-        Employee e2 = new Employee();
+//        Employee e2 = new Employee();
     }
 }

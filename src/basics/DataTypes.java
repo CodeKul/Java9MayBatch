@@ -6,7 +6,8 @@ package basics;
  * 2. Non - Primitive - Classes,Interface,Arrays,String
  *
  * Data Type specify diff sizes & values that can be stored in the variables
- *  --Statically typed programming -->> variables must be declared before its use.
+ *  --Statically typed programming -->> variables must be declared before its useubuntu    185864  0.3 12.3 7961740 2030980 ?     Sl   Jun14   5:58 java -jar lims-0.0.1-SNAPSHOT.jar
+.
  */
 public class DataTypes {
 
