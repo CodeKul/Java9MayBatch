@@ -1,5 +1,8 @@
 package thiskeyword;
 
+/**
+ * 3. to invoke current class constructor
+ */
 public class Car {
     String carName;
     String brandName;

@@ -1,5 +1,8 @@
 package thiskeyword;
 
+/**
+ * 2. to invoke current class method
+ */
 public class TestA {
     void t1(){
         System.out.println("in t1 ");
