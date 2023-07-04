@@ -36,12 +36,12 @@ Homework
 	the return type of the method
 
 Polymorphism
-- a single action in different ways
+- a single action performed in different ways
 poly - many
 morphs - forms
 Types :
 1. Compile-Time Polymorphism (Method Overloading)
-2. Run-Time Polymorphism ( Dynamic Method Dispatch)
+2. Run-Time Polymorphism/Dynamic Method Dispatch (Method Overriding)
 	- a process in which a call to an overridden method is resolved at
 	runtime
 
