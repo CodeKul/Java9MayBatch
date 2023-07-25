@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="final keyword,super keyword">
-      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/arrays" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="arrays">
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArraySumDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignement/array" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +39,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/madhuri/workspace/2023/Java9MayBatch/src/arrays"
+    "ToolWindowDebug.ShowToolbar": "false",
+    "last_opened_file_path": "/home/madhuri/workspace/2023/Java9MayBatch/src/assignement"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assignement" />
       <recent name="$PROJECT_DIR$/src/arrays" />
       <recent name="$PROJECT_DIR$/src/superkeyword" />
-      <recent name="$PROJECT_DIR$/src/assignement" />
       <recent name="$PROJECT_DIR$/src/finalkeyword" />
       <recent name="$PROJECT_DIR$/src/intefacedemo" />
     </key>
@@ -58,7 +58,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayDemo">
+  <component name="RunManager" selected="Application.ArraySumDemo">
     <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.ArrayDemo" />
       <module name="Java9MayBatch" />
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="encapsulation.EmployeeImpl" />
+    <configuration name="ArraySumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArraySumDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="encapsulation.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,19 +125,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ArraySumDemo" />
       <item itemvalue="Application.ArrayDemo" />
       <item itemvalue="Application.TestImpl" />
       <item itemvalue="Application.ParkingImpl" />
       <item itemvalue="Application.intefacedemo.VehicleImpl" />
-      <item itemvalue="Application.EmployeeImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySumDemo" />
         <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.TestImpl" />
         <item itemvalue="Application.ParkingImpl" />
         <item itemvalue="Application.intefacedemo.VehicleImpl" />
-        <item itemvalue="Application.EmployeeImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -336,11 +336,18 @@
       <option name="project" value="LOCAL" />
       <updated>1689683561105</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="arrays">
+      <option name="closed" value="true" />
+      <created>1690201638631</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1690201638631</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Features" />
     <MESSAGE value="JVM Architecture" />
     <MESSAGE value="operators" />
     <MESSAGE value="Data Types &amp; Variables.java" />
@@ -365,7 +372,8 @@
     <MESSAGE value="marker interface" />
     <MESSAGE value="problem statement" />
     <MESSAGE value="final keyword,super keyword" />
-    <option name="LAST_COMMIT_MESSAGE" value="final keyword,super keyword" />
+    <MESSAGE value="arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -549,6 +557,31 @@
           <url>file://$PROJECT_DIR$/src/mypackage/p3/Test.java</url>
           <line>14</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/ArraySumDemo.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/ArraySumDemo.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/ArraySumDemo.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/ArraySumDemo.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arrays/ArraySumDemo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
