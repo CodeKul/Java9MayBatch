@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="arrays">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Array2Demo.java" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="2D arrays">
+      <change afterPath="$PROJECT_DIR$/src/arrays/ArrayMultiplicationDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array2Demo">
+  <component name="RunManager" selected="Application.ArrayMultiplicationDemo">
     <configuration name="Array2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.Array2Demo" />
       <module name="Java9MayBatch" />
@@ -84,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraySumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArraySumDemo" />
+    <configuration name="ArrayMultiplicationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayMultiplicationDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -97,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParkingImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="intefacedemo.ParkingImpl" />
+    <configuration name="ArraySumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArraySumDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intefacedemo.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +124,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ArrayMultiplicationDemo" />
       <item itemvalue="Application.Array2Demo" />
-      <item itemvalue="Application.ArraySumDemo" />
       <item itemvalue="Application.ArrayDemo" />
+      <item itemvalue="Application.ArraySumDemo" />
       <item itemvalue="Application.TestImpl" />
-      <item itemvalue="Application.ParkingImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayMultiplicationDemo" />
         <item itemvalue="Application.Array2Demo" />
         <item itemvalue="Application.ArraySumDemo" />
         <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.TestImpl" />
-        <item itemvalue="Application.ParkingImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -351,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1690288199825</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="2D arrays">
+      <option name="closed" value="true" />
+      <created>1690375067772</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1690375067772</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JVM Architecture" />
     <MESSAGE value="operators" />
     <MESSAGE value="Data Types &amp; Variables.java" />
     <MESSAGE value="if statements" />
@@ -380,7 +387,8 @@
     <MESSAGE value="problem statement" />
     <MESSAGE value="final keyword,super keyword" />
     <MESSAGE value="arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrays" />
+    <MESSAGE value="2D arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="2D arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
