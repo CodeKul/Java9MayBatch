@@ -37,5 +37,5 @@
 	remove 3
 	array1={1,2,4,5}
 37)find missing no.
-	start element & end element 31-40  42,43,45
+	start element & end element 41-45  42,43,45
 	missing nos 41 44
