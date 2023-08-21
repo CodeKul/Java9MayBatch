@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="String demo">
-      <change afterPath="$PROJECT_DIR$/src/string/ImmutableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/StringComparison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/img.png" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="String Immutable and String Comparison">
+      <change afterPath="$PROJECT_DIR$/src/string/StringBufferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/StringBuilderDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/strings" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/strings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +63,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringComparison">
-    <configuration name="ArrayMultiplicationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ArrayMultiplicationDemo" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StringBufferDemo">
     <configuration name="ImmutableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.ImmutableDemo" />
       <module name="Java9MayBatch" />
@@ -96,6 +83,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.StringBufferDemo" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,19 +130,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StringBufferDemo" />
       <item itemvalue="Application.ImmutableDemo" />
       <item itemvalue="Application.StringComparison" />
       <item itemvalue="Application.JaggedArrayDemo" />
       <item itemvalue="Application.StringDemo" />
-      <item itemvalue="Application.ArrayMultiplicationDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBufferDemo" />
         <item itemvalue="Application.StringComparison" />
         <item itemvalue="Application.ImmutableDemo" />
         <item itemvalue="Application.StringDemo" />
         <item itemvalue="Application.JaggedArrayDemo" />
-        <item itemvalue="Application.ArrayMultiplicationDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -381,11 +381,18 @@
       <option name="project" value="LOCAL" />
       <updated>1690807248289</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="String Immutable and String Comparison">
+      <option name="closed" value="true" />
+      <created>1691065257045</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1691065257045</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="if statements" />
     <MESSAGE value="switch statement" />
     <MESSAGE value="for loop" />
     <MESSAGE value="assignment, while loop, do--while loop" />
@@ -410,7 +417,8 @@
     <MESSAGE value="2D arrays" />
     <MESSAGE value="Matrix Multiplication" />
     <MESSAGE value="String demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="String demo" />
+    <MESSAGE value="String Immutable and String Comparison" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Immutable and String Comparison" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

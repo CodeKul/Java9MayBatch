@@ -47,6 +47,7 @@ String Buffer
 	- thread safe
 	- synchronized
 	- slow
+	- implements Serializable, Comparable<StringBuffer>, CharSequence
 
 String Builder
 	- mutable(modify)
