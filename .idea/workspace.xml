@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="StringBuffer/StringBuilder">
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/exceptionhandling" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/Student.java" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="exception handling introduction">
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/IndexOutExDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/NullPointerExDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/NumberFormatExDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ToolWindowDebug.ShowToolbar": "false",
-    "last_opened_file_path": "/home/madhuri/workspace/2023/Java9MayBatch/src/exceptionhandling"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ToolWindowDebug.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/madhuri/workspace/2023/Java9MayBatch/src/exceptionhandling&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/exceptionhandling" />
@@ -63,13 +64,13 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="ImmutableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.ImmutableDemo" />
+  <component name="RunManager" selected="Application.NumberFormatExDemo">
+    <configuration name="ArithmeticExDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.ArithmeticExDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringBufferDemo" />
+    <configuration name="IndexOutExDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.IndexOutExDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StringComparison" />
+    <configuration name="NullPointerExDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.NullPointerExDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.StudentImpl" />
+    <configuration name="NumberFormatExDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.NumberFormatExDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StudentImpl" />
+      <item itemvalue="Application.ArithmeticExDemo" />
+      <item itemvalue="Application.IndexOutExDemo" />
+      <item itemvalue="Application.NullPointerExDemo" />
+      <item itemvalue="Application.NumberFormatExDemo" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.StringBufferDemo" />
-      <item itemvalue="Application.ImmutableDemo" />
-      <item itemvalue="Application.StringComparison" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberFormatExDemo" />
+        <item itemvalue="Application.IndexOutExDemo" />
+        <item itemvalue="Application.NullPointerExDemo" />
+        <item itemvalue="Application.ArithmeticExDemo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.StudentImpl" />
-        <item itemvalue="Application.StringBufferDemo" />
-        <item itemvalue="Application.StringComparison" />
-        <item itemvalue="Application.ImmutableDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -397,11 +398,18 @@
       <option name="project" value="LOCAL" />
       <updated>1692622067545</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="exception handling introduction">
+      <option name="closed" value="true" />
+      <created>1692707710140</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1692707710140</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for loop" />
     <MESSAGE value="assignment, while loop, do--while loop" />
     <MESSAGE value="for each,break stmt" />
     <MESSAGE value="objects,class" />
@@ -426,7 +434,8 @@
     <MESSAGE value="String demo" />
     <MESSAGE value="String Immutable and String Comparison" />
     <MESSAGE value="StringBuffer/StringBuilder" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuffer/StringBuilder" />
+    <MESSAGE value="exception handling introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="exception handling introduction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,6 +644,56 @@
           <url>file://$PROJECT_DIR$/src/arrays/ArraySumDemo.java</url>
           <line>10</line>
           <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ArithmeticExDemo.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="66" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
