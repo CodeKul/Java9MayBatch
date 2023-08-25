@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="Runtime exceptions">
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/FileNotFoundDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/MultipleCatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/NestedTryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/FinallyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/FinallyDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/ThrowDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +63,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileNotFoundDemo">
+  <component name="RunManager" selected="Application.ThrowDemo">
     <configuration name="FileNotFoundDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionhandling.FileNotFoundDemo" />
       <module name="Java9MayBatch" />
@@ -77,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexOutExDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.IndexOutExDemo" />
+    <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.FinallyDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultipleCatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.MultipleCatchDemo" />
+    <configuration name="FinallyDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.FinallyDemo2" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberFormatExDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.NumberFormatExDemo" />
+    <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.ThrowDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -130,19 +130,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FinallyDemo" />
+      <item itemvalue="Application.FinallyDemo2" />
+      <item itemvalue="Application.ThrowDemo" />
       <item itemvalue="Application.FileNotFoundDemo" />
-      <item itemvalue="Application.MultipleCatchDemo" />
       <item itemvalue="Application.NestedTryDemo" />
-      <item itemvalue="Application.IndexOutExDemo" />
-      <item itemvalue="Application.NumberFormatExDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThrowDemo" />
+        <item itemvalue="Application.FinallyDemo2" />
+        <item itemvalue="Application.FinallyDemo" />
         <item itemvalue="Application.FileNotFoundDemo" />
         <item itemvalue="Application.NestedTryDemo" />
-        <item itemvalue="Application.MultipleCatchDemo" />
-        <item itemvalue="Application.NumberFormatExDemo" />
-        <item itemvalue="Application.IndexOutExDemo" />
       </list>
     </recent_temporary>
   </component>
