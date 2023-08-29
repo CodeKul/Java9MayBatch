@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="Runtime exceptions">
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/FinallyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/FinallyDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/ThrowDemo.java" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="finally/throw keyword">
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagateDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,9 +62,22 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThrowDemo">
-    <configuration name="FileNotFoundDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.FileNotFoundDemo" />
+  <component name="RunManager" selected="Application.ExceptionPropagateDemo2Impl">
+    <configuration name="ExceptionPropagateDemo2Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.ExceptionPropagateDemo2Impl" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionhandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionPropagationImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionhandling.ExceptionPropagationImpl" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -103,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedTryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.NestedTryDemo" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptionhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionhandling.ThrowDemo" />
       <module name="Java9MayBatch" />
@@ -130,19 +129,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ExceptionPropagateDemo2Impl" />
+      <item itemvalue="Application.ExceptionPropagationImpl" />
       <item itemvalue="Application.FinallyDemo" />
       <item itemvalue="Application.FinallyDemo2" />
       <item itemvalue="Application.ThrowDemo" />
-      <item itemvalue="Application.FileNotFoundDemo" />
-      <item itemvalue="Application.NestedTryDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionPropagateDemo2Impl" />
+        <item itemvalue="Application.ExceptionPropagationImpl" />
         <item itemvalue="Application.ThrowDemo" />
         <item itemvalue="Application.FinallyDemo2" />
         <item itemvalue="Application.FinallyDemo" />
-        <item itemvalue="Application.FileNotFoundDemo" />
-        <item itemvalue="Application.NestedTryDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -413,11 +412,18 @@
       <option name="project" value="LOCAL" />
       <updated>1692795031079</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="finally/throw keyword">
+      <option name="closed" value="true" />
+      <created>1692966731059</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1692966731059</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for each,break stmt" />
     <MESSAGE value="objects,class" />
     <MESSAGE value="inheritance" />
     <MESSAGE value="methods in java" />
@@ -442,7 +448,8 @@
     <MESSAGE value="StringBuffer/StringBuilder" />
     <MESSAGE value="exception handling introduction" />
     <MESSAGE value="Runtime exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Runtime exceptions" />
+    <MESSAGE value="finally/throw keyword" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally/throw keyword" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -751,6 +758,41 @@
           <url>file://$PROJECT_DIR$/src/exceptionhandling/NestedTryDemo.java</url>
           <line>17</line>
           <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagateDemo.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagateDemo.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagateDemo.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagateDemo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagateDemo.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagateDemo.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionhandling/ExceptionPropagateDemo.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
