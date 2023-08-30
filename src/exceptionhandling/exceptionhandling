@@ -61,7 +61,7 @@ Nested Try :
  Exception Propagation:
  - when an exception occurs within a method then if that method does not handle that exception object
  will be propagated to caller then the call method is responsible that exception.
- - an exception is thrown from the top of the stack & if it not cought , then it drops down the call stack
+ - an exception is thrown from the top of the stack & if it not caught , then it drops down the call stack
 
 Notes :
 1. At a time only one exception occurs and ar a time only one catch block is executed
