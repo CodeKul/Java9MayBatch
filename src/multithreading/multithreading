@@ -1,0 +1,143 @@
+MultiTasking
+- performing multiple task @ single/same time
+- increases performance of CPU and multitasking achieved by
+ 1. Process based (MultiProcessing)
+ 2. Thread based (Multithreading)
+
+ MultiProcessing
+ - when one system is connected to multiple process in order to complete the task
+ - heavy weight
+
+ MultiThreading
+ - executing multiple threads or program or small task or sub-process @ same time
+   eg. Games, software,animation
+
+Thread
+ - lightweight process
+ - smallest unit of process
+ - independent(if exception/error occur at one thread it does not affect the others)
+ - shares memory
+ - one process can have multiple threads
+ - at least one process is required for each thread
+ - @ a time only one thread executed
+ - by default in every java application we have at least one thread - main thread
+
+ Difference between thread & process
+
+
+ Life Cycle of Thread(States/Stages)
+ 1. Born(New)
+    - when a thread is created but not yet started,it is new/born state
+    eg. MyThread t1 = new MyThread();
+
+ 2. Runnable
+    - when we called the start() method then it's moved from New to Runnable state
+    - waiting for resource allocation from the system
+    - Thread Scheduler is part of JVM, allocated a fixed amount of time to each thread
+    eg. t1.start()
+
+ 3. Running
+    - when the thread gets the CPU, it moves from Runnable to Running state.
+
+ 4. Blocked/Waiting
+    - whenever a thread is inactive for particular of time
+
+ 5. Dead/Stop/Terminate
+    - when a thread has completed/finished its task
+
+Threads can be created by using two mechanisms:
+1. by extending the Thread class
+2. by implementing Runnable interface
+
+Thread class:
+- package java.lang;
+- implements Runnable
+- Step: a) extends with Thread class
+		b) override run() method
+		c) created an object of class
+		d) invoked start() method
+
+
+Runnable Interface
+- package java.lang;
+- Step: a) implements with Runnable interface
+		b) override run() method
+		c) created an object of class
+		d) created an object of thread class
+		e) invoked start() method
+
+Thread Scheduler
+- a part of JVM
+- decides which thread to execute
+
+Daemon Thread:
+- it is low priority
+- running in background for other threads
+- service provider
+- depends on user/another
+- IllegalThreadStateException occurs when we set thread as daemon
+ after the start method
+
+eg. Garbage Collector,Spell Checker
+
+Methods:
+1. sleep()
+2. yield()
+	- which stops the current executing thread & give a chance
+	to other threads for execution
+3. join()
+	- if a thread wants to wait for another thread to complete
+	its task
+4. interrupt()
+	- it interrupts the given thread
+	- when thread is in waiting & sleep stage then interrupt method will
+	work
+	- InterruptedException will occur when we call interrupted method while
+	thread is in sleep(),wait()
+
+Synchronisation
+- capability to control access of multiple threads to any shared resource
+- 2 types
+1. Process
+2. Thread Synchronisation
+	1. Mutual Exclusion/Mutex
+		- only one thread work @ one time
+		a) synchronised method
+		b) synchronised block
+		c) static synchronisation
+	2. Inter-thread communication
+		- a mechanism in which a thread releases the lock & enter into paused state
+		& another thread acquires the lock & continue to executed.
+		notify(),notifyAll(),wait()
+
+Deadlock:
+	it is a situation where one object is waiting to acquire lock, at the same time second object is waiting to acquire
+	 lock,considering first object is releases the lock. So both objects are in waiting state.
+
+Notes:
+1. thread can never be started again,after starting a thread, if we do this we will get
+	IllegalThreadStateException
+
+2. if we extend thread class,our class cannot extend any other class because Java doesn't
+    support multiple inheritance
+    So, we implement the Runnable interface
+
+HomeWork:
+
+1.class T1 impl Runnable{
+	for loop
+}
+class T2 impl Runnable{
+	for loop
+}
+class Impl{
+
+}
+2. WAP to demonstrate yield method
+3. Difference between sleep(),yield(),join()
+4. Api BookTicket
+	- bookTicket() - logic
+	BusTicket extends Thread
+5.
+
+
