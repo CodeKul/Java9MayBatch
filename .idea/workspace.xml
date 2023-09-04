@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="Thread Life Cycle">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/NamingThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/SleepDemo.java" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="Sleep method,Naming of Thread">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadJoinDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/multithreading" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/multithreading" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,22 +63,9 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SleepImpl">
+  <component name="RunManager" selected="Application.ThreadJoinDemoImpl">
     <configuration name="CustomExDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionhandling.CustomExDemo" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptionhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExceptionPropagateDemo2Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.ExceptionPropagateDemo2Impl" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -129,20 +116,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadJoinDemoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadJoinDemoImpl" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.ThreadJoinDemoImpl" />
       <item itemvalue="Application.NamingThreadImpl" />
       <item itemvalue="Application.SleepImpl" />
       <item itemvalue="Application.MyThreadImpl" />
       <item itemvalue="Application.CustomExDemo" />
-      <item itemvalue="Application.ExceptionPropagateDemo2Impl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadJoinDemoImpl" />
         <item itemvalue="Application.SleepImpl" />
         <item itemvalue="Application.NamingThreadImpl" />
         <item itemvalue="Application.MyThreadImpl" />
         <item itemvalue="Application.CustomExDemo" />
-        <item itemvalue="Application.ExceptionPropagateDemo2Impl" />
       </list>
     </recent_temporary>
   </component>
@@ -437,11 +437,18 @@
       <option name="project" value="LOCAL" />
       <updated>1693485250459</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Sleep method,Naming of Thread">
+      <option name="closed" value="true" />
+      <created>1693565894271</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1693565894271</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="methods in java" />
     <MESSAGE value="constructor" />
     <MESSAGE value="static keyword" />
     <MESSAGE value="this keyword" />
@@ -466,7 +473,8 @@
     <MESSAGE value="finally/throw keyword" />
     <MESSAGE value="Custom Exception" />
     <MESSAGE value="Thread Life Cycle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread Life Cycle" />
+    <MESSAGE value="Sleep method,Naming of Thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sleep method,Naming of Thread" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
