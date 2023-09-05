@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="Sleep method,Naming of Thread">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadJoinDemo.java" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="join method">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadPriorityDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadYieldDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/multithreading" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/multithreading" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,33 +63,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadJoinDemoImpl">
-    <configuration name="CustomExDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptionhandling.CustomExDemo" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptionhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyThreadImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.MyThreadImpl" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ThreadPriorityImpl">
     <configuration name="NamingThreadImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.NamingThreadImpl" />
       <module name="Java9MayBatch" />
@@ -129,20 +103,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPriorityImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadPriorityImpl" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadYieldImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadYieldImpl" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.ThreadPriorityImpl" />
+      <item itemvalue="Application.ThreadYieldImpl" />
       <item itemvalue="Application.ThreadJoinDemoImpl" />
       <item itemvalue="Application.NamingThreadImpl" />
       <item itemvalue="Application.SleepImpl" />
-      <item itemvalue="Application.MyThreadImpl" />
-      <item itemvalue="Application.CustomExDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPriorityImpl" />
+        <item itemvalue="Application.ThreadYieldImpl" />
         <item itemvalue="Application.ThreadJoinDemoImpl" />
         <item itemvalue="Application.SleepImpl" />
         <item itemvalue="Application.NamingThreadImpl" />
-        <item itemvalue="Application.MyThreadImpl" />
-        <item itemvalue="Application.CustomExDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -445,11 +445,18 @@
       <option name="project" value="LOCAL" />
       <updated>1693565894271</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="join method">
+      <option name="closed" value="true" />
+      <created>1693831830679</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1693831830679</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="constructor" />
     <MESSAGE value="static keyword" />
     <MESSAGE value="this keyword" />
     <MESSAGE value="Aggregation" />
@@ -474,7 +481,8 @@
     <MESSAGE value="Custom Exception" />
     <MESSAGE value="Thread Life Cycle" />
     <MESSAGE value="Sleep method,Naming of Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sleep method,Naming of Thread" />
+    <MESSAGE value="join method" />
+    <option name="LAST_COMMIT_MESSAGE" value="join method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
