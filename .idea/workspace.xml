@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="join method">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadPriorityDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadYieldDemo.java" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="yield method,thread priority">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/BankTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/DaemonThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/PrintTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,9 +64,9 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadPriorityImpl">
-    <configuration name="NamingThreadImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.NamingThreadImpl" />
+  <component name="RunManager" selected="Application.BankTransactionImpl">
+    <configuration name="BankTransactionImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.BankTransactionImpl" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleepImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.SleepImpl" />
+    <configuration name="DaemonThreadImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.DaemonThreadImpl" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadJoinDemoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadJoinDemoImpl" />
+    <configuration name="ThreadImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadImpl" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -130,19 +131,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BankTransactionImpl" />
+      <item itemvalue="Application.DaemonThreadImpl" />
+      <item itemvalue="Application.ThreadImpl" />
       <item itemvalue="Application.ThreadPriorityImpl" />
       <item itemvalue="Application.ThreadYieldImpl" />
-      <item itemvalue="Application.ThreadJoinDemoImpl" />
-      <item itemvalue="Application.NamingThreadImpl" />
-      <item itemvalue="Application.SleepImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankTransactionImpl" />
+        <item itemvalue="Application.DaemonThreadImpl" />
+        <item itemvalue="Application.ThreadImpl" />
         <item itemvalue="Application.ThreadPriorityImpl" />
         <item itemvalue="Application.ThreadYieldImpl" />
-        <item itemvalue="Application.ThreadJoinDemoImpl" />
-        <item itemvalue="Application.SleepImpl" />
-        <item itemvalue="Application.NamingThreadImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -453,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1693831830679</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="yield method,thread priority">
+      <option name="closed" value="true" />
+      <created>1693917469341</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1693917469341</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="static keyword" />
     <MESSAGE value="this keyword" />
     <MESSAGE value="Aggregation" />
     <MESSAGE value="method overloading" />
@@ -482,7 +490,8 @@
     <MESSAGE value="Thread Life Cycle" />
     <MESSAGE value="Sleep method,Naming of Thread" />
     <MESSAGE value="join method" />
-    <option name="LAST_COMMIT_MESSAGE" value="join method" />
+    <MESSAGE value="yield method,thread priority" />
+    <option name="LAST_COMMIT_MESSAGE" value="yield method,thread priority" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
