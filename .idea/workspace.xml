@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="yield method,thread priority">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/BankTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/DaemonThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/PrintTable.java" afterDir="false" />
+    <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="Synchronised method,block">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/BookTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,13 +63,52 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BankTransactionImpl">
+  <component name="RunManager" selected="Application.BankImpl">
+    <configuration name="BankImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.BankImpl" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BankTransactionImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.BankTransactionImpl" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookTicketImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.BookTicketImpl" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterDemoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="statickeyword.CounterDemoImpl" />
+      <module name="Java9MayBatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="statickeyword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,59 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadImpl" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadPriorityImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadPriorityImpl" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadYieldImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadYieldImpl" />
-      <module name="Java9MayBatch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.BankImpl" />
       <item itemvalue="Application.BankTransactionImpl" />
+      <item itemvalue="Application.BookTicketImpl" />
+      <item itemvalue="Application.CounterDemoImpl" />
       <item itemvalue="Application.DaemonThreadImpl" />
-      <item itemvalue="Application.ThreadImpl" />
-      <item itemvalue="Application.ThreadPriorityImpl" />
-      <item itemvalue="Application.ThreadYieldImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankImpl" />
+        <item itemvalue="Application.BookTicketImpl" />
+        <item itemvalue="Application.CounterDemoImpl" />
         <item itemvalue="Application.BankTransactionImpl" />
         <item itemvalue="Application.DaemonThreadImpl" />
-        <item itemvalue="Application.ThreadImpl" />
-        <item itemvalue="Application.ThreadPriorityImpl" />
-        <item itemvalue="Application.ThreadYieldImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -462,11 +461,18 @@
       <option name="project" value="LOCAL" />
       <updated>1693917469341</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Synchronised method,block">
+      <option name="closed" value="true" />
+      <created>1694004661064</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1694004661064</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="this keyword" />
     <MESSAGE value="Aggregation" />
     <MESSAGE value="method overloading" />
     <MESSAGE value="method overriding" />
@@ -491,7 +497,8 @@
     <MESSAGE value="Sleep method,Naming of Thread" />
     <MESSAGE value="join method" />
     <MESSAGE value="yield method,thread priority" />
-    <option name="LAST_COMMIT_MESSAGE" value="yield method,thread priority" />
+    <MESSAGE value="Synchronised method,block" />
+    <option name="LAST_COMMIT_MESSAGE" value="Synchronised method,block" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -840,6 +847,16 @@
           <url>jar:///usr/lib/jvm/jdk-17/lib/src.zip!/java.base/java/lang/Runnable.java</url>
           <line>68</line>
           <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/multithreading/Bank.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/multithreading/Bank.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
