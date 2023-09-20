@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="Synchronised method,block">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/BookTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ThreadPoolDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BankImpl">
+  <component name="RunManager" selected="Application.ThreadPoolDemo">
     <configuration name="BankImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.BankImpl" />
       <module name="Java9MayBatch" />
@@ -116,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DaemonThreadImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.DaemonThreadImpl" />
+    <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadPoolDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -130,19 +129,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ThreadPoolDemo" />
       <item itemvalue="Application.BankImpl" />
       <item itemvalue="Application.BankTransactionImpl" />
       <item itemvalue="Application.BookTicketImpl" />
       <item itemvalue="Application.CounterDemoImpl" />
-      <item itemvalue="Application.DaemonThreadImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPoolDemo" />
         <item itemvalue="Application.BankImpl" />
         <item itemvalue="Application.BookTicketImpl" />
         <item itemvalue="Application.CounterDemoImpl" />
         <item itemvalue="Application.BankTransactionImpl" />
-        <item itemvalue="Application.DaemonThreadImpl" />
       </list>
     </recent_temporary>
   </component>
