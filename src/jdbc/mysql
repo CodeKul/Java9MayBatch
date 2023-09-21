@@ -1,0 +1,70 @@
+mysql> create database Java21Sep;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> create table employee(id int,ename varchar(20),salary double);
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> desc employee;
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| id     | int         | YES  |     | NULL    |       |
+| ename  | varchar(20) | YES  |     | NULL    |       |
+| salary | double      | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> insert into employee values(2,'Ravi',50000);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> insert into employee values(3,'Ankit',60000);
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into employee values('Ankit',60000,3);
+ERROR 1366 (HY000): Incorrect integer value: 'Ankit' for column 'id' at row 1
+mysql> insert into employee(ename,salary,id) values('Ankit',60000,3);
+Query OK, 1 row affected (0.00 sec)
+
+
+mysql> insert into employee values(4,'Raj');
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+
+mysql> insert into employee(id,ename) values(4,'Raj');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from employee ;
++------+-------+--------+
+| id   | ename | salary |
++------+-------+--------+
+|    1 | Amit  |  30000 |
+|    2 | Ravi  |  50000 |
+|    3 | Ankit |  60000 |
+|    3 | Ankit |  60000 |
+|    4 | Raj   |   NULL |
++------+-------+--------+
+5 rows in set (0.00 sec)
+
+mysql> select * from employee order by ename;
++------+-------+--------+
+| id   | ename | salary |
++------+-------+--------+
+|    1 | Amit  |  30000 |
+|    3 | Ankit |  60000 |
+|    3 | Ankit |  60000 |
+|    4 | Raj   |   NULL |
+|    2 | Ravi  |  50000 |
++------+-------+--------+
+5 rows in set (0.00 sec)
+
+mysql> select * from employee order by ename desc;
++------+-------+--------+
+| id   | ename | salary |
++------+-------+--------+
+|    2 | Ravi  |  50000 |
+|    4 | Raj   |   NULL |
+|    3 | Ankit |  60000 |
+|    3 | Ankit |  60000 |
+|    1 | Amit  |  30000 |
++------+-------+--------+
+5 rows in set (0.00 sec)
+
