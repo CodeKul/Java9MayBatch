@@ -1,70 +1,118 @@
-mysql> create database Java21Sep;
-Query OK, 1 row affected (0.00 sec)
+mysql> create user test@localhost identified by 'Test@123';
+Query OK, 0 rows affected (0.01 sec)
 
-mysql> create table employee(id int,ename varchar(20),salary double);
-Query OK, 0 rows affected (0.02 sec)
 
-mysql> desc employee;
-+--------+-------------+------+-----+---------+-------+
-| Field  | Type        | Null | Key | Default | Extra |
-+--------+-------------+------+-----+---------+-------+
-| id     | int         | YES  |     | NULL    |       |
-| ename  | varchar(20) | YES  |     | NULL    |       |
-| salary | double      | YES  |     | NULL    |       |
-+--------+-------------+------+-----+---------+-------+
-3 rows in set (0.01 sec)
+mysql> grant CREATE,SELECT,INSERT on *.*TO test@localhost;
+Query OK, 0 rows affected (0.00 sec)
 
-mysql> insert into employee values(2,'Ravi',50000);
-Query OK, 1 row affected (0.00 sec)
+mysql> show GRANTS for test@localhost;
++-----------------------------------------------------------+
+| Grants for test@localhost                                 |
++-----------------------------------------------------------+
+| GRANT SELECT, INSERT, CREATE ON *.* TO `test`@`localhost` |
++-----------------------------------------------------------+
+1 row in set (0.00 sec)
 
-mysql> insert into employee values(3,'Ankit',60000);
+mysql> flush PRIVILEGES;
+Query OK, 0 rows affected (0.01 sec)
+
+
+
+mysql> select user,select_priv from mysql.user;
++------------------+-------------+
+| user             | select_priv |
++------------------+-------------+
+| codekul          | N           |
+| debian-sys-maint | Y           |
+| mysql.infoschema | Y           |
+| mysql.session    | N           |
+| mysql.sys        | N           |
+| root             | Y           |
+| test             | Y           |
++------------------+-------------+
+7 rows in set (0.00 sec)
+
+mysql> drop user test@localhost;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> select user,select_priv from mysql.user;
++------------------+-------------+
+| user             | select_priv |
++------------------+-------------+
+| codekul          | N           |
+| debian-sys-maint | Y           |
+| mysql.infoschema | Y           |
+| mysql.session    | N           |
+| mysql.sys        | N           |
+| root             | Y           |
++------------------+-------------+
+6 rows in set (0.00 sec)
+
+mysql> create database Sep25Java;
+ERROR 1044 (42000): Access denied for user 'codekul'@'localhost' to database 'Sep25Java'
+
+
+mysql> grant CREATE,SELECT,INSERT on *.*TO codekul@localhost;
+Query OK, 0 rows affected (0.01 sec)
+
+
+mysql> create database Sept25Java;
 Query OK, 1 row affected (0.01 sec)
 
-mysql> insert into employee values('Ankit',60000,3);
-ERROR 1366 (HY000): Incorrect integer value: 'Ankit' for column 'id' at row 1
-mysql> insert into employee(ename,salary,id) values('Ankit',60000,3);
+mysql> show databases;
+
+mysql> drop database Sept25Java;
+ERROR 1044 (42000): Access denied for user 'codekul'@'localhost' to database 'Sept25Java'
+
+
+mysql> grant drop on *.*TO codekul@localhost;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> grant ALL PRIVILEGES on *.*TO codekul@localhost;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> drop database Sept25Java;
+Query OK, 0 rows affected (0.02 sec)
+
+
+mysql> create database Sept25Java;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use Sept25Java;
+Database changed
+
+mysql> create table student(rno integer(5),sname varchar(20));
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
+mysql> alter table student add column school_name varchar(15);
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> desc student;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| rno         | int         | YES  |     | NULL    |       |
+| sname       | varchar(20) | YES  |     | NULL    |       |
+| school_name | varchar(15) | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> insert into student values (1,'Amit','RRV');
 Query OK, 1 row affected (0.00 sec)
 
-
-mysql> insert into employee values(4,'Raj');
-ERROR 1136 (21S01): Column count doesn't match value count at row 1
-
-mysql> insert into employee(id,ename) values(4,'Raj');
+mysql> insert into student(sname,school_name,rno) values ('Yash','DNY',2);
 Query OK, 1 row affected (0.00 sec)
 
-mysql> select * from employee ;
-+------+-------+--------+
-| id   | ename | salary |
-+------+-------+--------+
-|    1 | Amit  |  30000 |
-|    2 | Ravi  |  50000 |
-|    3 | Ankit |  60000 |
-|    3 | Ankit |  60000 |
-|    4 | Raj   |   NULL |
-+------+-------+--------+
-5 rows in set (0.00 sec)
+mysql> alter table student add column mobile varchar(10);
+Query OK, 0 rows affected (0.02 sec)
+Records: 0  Duplicates: 0  Warnings: 0
 
-mysql> select * from employee order by ename;
-+------+-------+--------+
-| id   | ename | salary |
-+------+-------+--------+
-|    1 | Amit  |  30000 |
-|    3 | Ankit |  60000 |
-|    3 | Ankit |  60000 |
-|    4 | Raj   |   NULL |
-|    2 | Ravi  |  50000 |
-+------+-------+--------+
-5 rows in set (0.00 sec)
-
-mysql> select * from employee order by ename desc;
-+------+-------+--------+
-| id   | ename | salary |
-+------+-------+--------+
-|    2 | Ravi  |  50000 |
-|    4 | Raj   |   NULL |
-|    3 | Ankit |  60000 |
-|    3 | Ankit |  60000 |
-|    1 | Amit  |  30000 |
-+------+-------+--------+
-5 rows in set (0.00 sec)
-
+mysql> select * from student;
++------+-------+-------------+------------+
+| rno  | sname | school_name | mobile     |
++------+-------+-------------+------------+
+|    1 | Amit  | RRV         | NULL       |
+|    2 | Yash  | DNY         | NULL       |
+|    2 | Yash  | DNY         | 9850653156 |
++------+-------+-------------+------------+
+3 rows in set (0.00 sec)
