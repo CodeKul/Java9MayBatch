@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c90e7fe3-6b3e-41ce-94ab-d3415a89a0f8" name="Changes" comment="mysql queries">
-      <change afterPath="$PROJECT_DIR$/src/assignement/SQL_Queries.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignement/sample_database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbc/JdbcDBDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/JdbcInsertDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/JdbcUpdateDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdbc/mysql" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/mysql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <recent name="basics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JdbcDBDemo">
+  <component name="RunManager" selected="Application.JdbcInsertDemo">
     <configuration name="BankImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.BankImpl" />
       <module name="Java9MayBatch" />
@@ -83,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTicketImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.BookTicketImpl" />
+    <configuration name="JdbcDBDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.JdbcDBDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcDBDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.JdbcDBDemo" />
+    <configuration name="JdbcInsertDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.JdbcInsertDemo" />
       <module name="Java9MayBatch" />
       <extension name="coverage">
         <pattern>
@@ -136,19 +133,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.JdbcInsertDemo" />
       <item itemvalue="Application.JdbcDBDemo" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.ThreadPoolDemo" />
       <item itemvalue="Application.BankImpl" />
-      <item itemvalue="Application.BookTicketImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JdbcInsertDemo" />
         <item itemvalue="Application.JdbcDBDemo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ThreadPoolDemo" />
         <item itemvalue="Application.BankImpl" />
-        <item itemvalue="Application.BookTicketImpl" />
       </list>
     </recent_temporary>
   </component>
